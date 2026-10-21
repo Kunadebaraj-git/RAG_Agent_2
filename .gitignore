@@ -1,0 +1,39 @@
+# Environment
+.env
+backend/.env
+frontend/.env
+.env.local
+.env.production
+
+# Backend repository (managed separately in RAG_Agent_2_backend)
+backend/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+venv/
+.venv/
+
+# Node
+node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+.neon
